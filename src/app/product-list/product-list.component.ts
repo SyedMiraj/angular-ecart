@@ -12,7 +12,8 @@ export class ProductListComponent {
     price: 799,
     color: "Mat brown",
     discount: 10,
-    inStock: 5
+    inStock: 0,
+    image: "/assets/images/iPhone.jpg"
   }
 
   getDiscountedPrice(){
